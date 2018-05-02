@@ -1,6 +1,7 @@
 .DS_Store
 .terraform
 *.tfstate*
+package-lock.json
 node_modules
 Gemfile.lock
 lambda_function.zip
