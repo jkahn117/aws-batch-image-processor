@@ -145,7 +145,7 @@ resource "aws_ecr_repository" "image-processor-job-repo" {
 }
 
 resource "aws_s3_bucket" "image-bucket" {
-  bucket = "aws-batch-sample-image-processor-bucket"
+  bucket_prefix = "aws-batch-sample-"
 }
 
 resource "aws_dynamodb_table" "image-table" {
