@@ -1,0 +1,5 @@
+source 'https://rubygems.org' do
+  gem 'aws-sdk-s3', '~> 1'
+  gem 'aws-sdk-rekognition', '~> 1'
+  gem 'aws-sdk-dynamodb', '~> 1'
+end

@@ -1,0 +1,6 @@
+.DS_Store
+.terraform
+*.tfstate*
+node_modules
+Gemfile.lock
+lambda_function.zip
