@@ -1,6 +1,6 @@
 # aws-batch-image-processor
 
-aws-batch-image-processor is a sample project that demonstrates the use of [AWS Batch](https://aws.amazon.com/batch/). Here, we use [Amazon Rekognition](https://aws.amazon.com/rekognition/) to detect entities in a photo uploaded to [Amazon S3](https://aws.amazon.com/s3/). While this is somewhat simple use case, the job itself could be extended to handle more complex batch scenarios as well.
+aws-batch-image-processor is a sample project that demonstrates the use of [AWS Batch](https://aws.amazon.com/batch/). Here, we use [Amazon Rekognition](https://aws.amazon.com/rekognition/) to detect entities in a photo uploaded to [Amazon S3](https://aws.amazon.com/s3/). While this is somewhat simple use case, the job itself could be extended to handle more complex batch scenarios as well. See my [blog post](https://medium.com/@joshua.a.kahn/understanding-aws-batch-a-brief-introduction-and-sample-project-5a3885dda0ce) for additional details.
 
 The sample code contains the following:
 
@@ -28,6 +28,8 @@ To run the project, you will to:
 ## Create AWS Resources with Terraform
 
 For this project, we will use Terraform to deploy our AWS Resources. These includes various Batch components (Compute Environnment, Job Queue, and Job Definition) as well as a Lambda function and related IAM Roles.
+
+![Project Architecture](images/sample_project_architecture.png)
 
 To [build infrastructure](https://www.terraform.io/intro/getting-started/build.html) with Terraform (be sure AWS credentials are configured with appropriate permissions):
 
